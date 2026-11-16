@@ -73,8 +73,8 @@ dict_total = 0
 with open(SALES_FILE, "r") as f:
     reader = csv.DictReader(f)
     for row in reader:
-        price = float(row["Price"])
-        quantity = int(row["Quantity"])
+        price = float(row["price"])
+        quantity = int(row["quantity"])
         total = price * quantity
         dict_total += total
 print(f"{row['product']}: {quantity} units x ${price:.2f} = ${total:.2f}")
