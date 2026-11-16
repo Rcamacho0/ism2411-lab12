@@ -106,5 +106,5 @@ with open(LOG_FILE, "r") as f:
         entries += 1
 print(f"Log entries so far: {entries}")
 
-#reflection 1 [end]
-#reflection 2 [end]
+#reflection 1 [end] python can sort and be used to read the csv files more easily than excel would and takes up less space per file. It also can be automated in python which gives python another bonus.
+#reflection 2 [end] A real business process that could benefit from append mode is a store tracking its daily sales it could track its daily revenue and sales of each item.
